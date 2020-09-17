@@ -1,0 +1,234 @@
+/*CONTAINER*/
+
+#container{
+    width: 40vw;
+    height: 50vh;
+
+    background-color: var(--background-primary);
+
+    box-shadow: 0px 3px 5px -5px #262626;
+
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: url(../../img/white-background-image-3.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/*ESTILIZANDO CAIXA CEP*/
+
+#container #caixaCEP{
+    padding: 1%;
+    width: 78%;
+    height: auto;
+    margin-bottom: 5%;
+
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+
+#container #caixaCEP p{
+    width: 10%;
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-black);
+
+}
+
+#container #caixaCEP #inputCEP{
+    border: none;
+
+    padding: 1%;
+    width: 78%;
+    height: 3vh;
+
+    background-color: var(--background-secondary);
+
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-black);
+
+}
+
+/*ESTILIZANDO CAIXA ENREDECO*/
+
+#container #caixaEndereco{
+    padding: 1%;
+    width: 78%;
+    height: auto;
+
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+
+#container #caixaEndereco p{
+    width: 20%;
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-black);
+
+}
+
+#container #caixaEndereco #inputEndereco{
+    border: none;
+
+    padding: 1%;
+    width: 68%;
+    height: 3vh;
+
+    /*background-color: var(--background-secondary);*/
+    background-color: transparent;
+
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-black);
+
+    display: flex;
+    align-items: center; 
+    justify-content: left;
+
+}
+
+/*ESTILIZANDO CAIXA BAIRRO*/
+
+#container #caixaBairro{
+    padding: 1%;
+    width: 78%;
+    height: auto;
+
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+
+#container #caixaBairro p{
+    width: 20%;
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-black);
+
+}
+
+#container #caixaBairro #inputBairro{
+    border: none;
+
+    padding: 1%;
+    width: 68%;
+    height: 3vh;
+
+    /*background-color: var(--background-secondary);*/
+    background-color: transparent;
+
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-black);
+
+    display: flex;
+    align-items: center; 
+    justify-content: left;
+
+}
+
+/*ESTILIZANDO CAIXA CIDADE*/
+
+#container #caixaCidade{
+    padding: 1%;
+    width: 78%;
+    height: auto;
+
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+
+#container #caixaCidade p{
+    width: 20%;
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-black);
+
+}
+
+#container #caixaCidade #inputCidade{
+    border: none;
+
+    padding: 1%;
+    width: 68%;
+    height: 3vh;
+
+    /*background-color: var(--background-secondary);*/
+    background-color: transparent;
+
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-black);
+
+    display: flex;
+    align-items: center; 
+    justify-content: left;
+
+}
+
+/*ESTILIZANDO CAIXA UF*/
+
+#container #caixaUF{
+    padding: 1%;
+    width: 78%;
+    height: auto;
+
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+
+#container #caixaUF p{
+    width: 20%;
+    height: auto;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-black);
+
+}
+
+#container #caixaUF #inputUF{
+    border: none;
+
+    padding: 1%;
+    width: 68%;
+    height: 3vh;
+
+    /*background-color: var(--background-secondary);*/
+    background-color: transparent;
+
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-black);
+
+    display: flex;
+    align-items: center; 
+    justify-content: left;
+
+}
